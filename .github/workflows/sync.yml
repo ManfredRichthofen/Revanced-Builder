@@ -13,6 +13,6 @@ jobs:
         uses: AndreasAugustin/actions-template-sync@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: <n0k0m3/revanced-build-template>
+          source_repo_path: n0k0m3/revanced-build-template
           upstream_branch: <target_branch> # defaults to main
           pr_labels: <label1>,<label2>[,...] # optional, no default
