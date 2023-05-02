@@ -15,4 +15,3 @@ jobs:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
           source_repo_path: n0k0m3/revanced-build-template
           upstream_branch: main
-          pr_labels: <label1>,<label2>[,...] # optional, no default
